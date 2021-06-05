@@ -59,16 +59,16 @@ const Search = () => {
 
     return (
         <div className="page-search">
-            <div className="page-search__inner row row--lg center padding-v-xl flex-c-c">
+            <div className="page-search__inner row row--lg center padding-t-xl padding-b-md flex-c-c">
                 <h1 className="title">Zadejte <span className="title--colored">URL adresu</span> webu</h1>
                 <div className="search-bar center">
                     <input className="search-bar__input padding-h-sm"
-                        type="text" ref={ urlRef } placeholder="Např. www.podezrely-obchod.cz" />
+                        type="text" ref={ urlRef } placeholder="Např. www.obchod.cz" />
                     <button className="search-bar__btn"
                         onClick={ () => searchData(urlRef.current.value) }>OVĚŘIT PRODEJCE</button>
                 </div>
             </div>
-            
+
             { found !== '' ?
                 <div className="modal flex-c-c">
                     <div className="modal__box padding-v-lg padding-h-xl">
@@ -105,6 +105,7 @@ const Search = () => {
                         <div className="bounce2"></div>
                         <div className="bounce3"></div>
                     </div>
+                    <p className="loading-text">Ověřování webu <strong className="text-highlight">{ urlRef.current.value }</strong> ...</p>
                 </div>
                 : ''
             }

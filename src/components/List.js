@@ -29,15 +29,21 @@ const List = () => {
     const handleNext = () => {
         fetchData((pageNum + 1) * 30)
         setPageNum(pageNum + 1)
+
+        // scroll to the top of the element
+        document.querySelector('.webs').scrollTo(0, 0)
     }
 
     const handlePrev = () => {
         fetchData((pageNum - 1) * 30)
         setPageNum(pageNum - 1)
+
+        // scroll to the top of the element
+        document.querySelector('.webs').scrollTo(0, 0)
     }
 
     return (
-        <div className="page-list row row--sm center padding-v-xl">
+        <div className="page-list row row--sm center padding-t-xl padding-b-md">
             <h1 className="title">Seznam rizikových webů:</h1>
             <ul className="webs">
             { webs.map(web => (

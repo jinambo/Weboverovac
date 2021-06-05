@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="page-about row row--lg center padding-v-xl">
+        <div className="page-about row row--lg center padding-t-xl padding-b-md">
             <h1 className="title title--md">O stránce Webověřovač.cz</h1>
             
             <div className="page-about__item margin-t-md">
