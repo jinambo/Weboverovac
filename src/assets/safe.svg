@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168.776" height="128.417" viewBox="0 0 168.776 128.417">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.88" y1="0.88" x2="0.11" y2="0.11" gradientUnits="objectBoundingBox">
+      <stop offset="0.108" stop-color="#0d7044"/>
+      <stop offset="0.433" stop-color="#11945a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.793" y1="1.035" x2="0.412" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2ac782"/>
+      <stop offset="1" stop-color="#21b876"/>
+    </linearGradient>
+  </defs>
+  <g id="icons8-checkmark" transform="translate(-1 -7)">
+    <path id="Path_157" data-name="Path 157" d="M58.233,101.259l-55.1-55.1a7.268,7.268,0,0,1,0-10.28L17.875,21.129a7.268,7.268,0,0,1,10.28,0l55.1,55.1a7.268,7.268,0,0,1,0,10.28L68.514,101.259A7.274,7.274,0,0,1,58.233,101.259Z" transform="translate(0 32.027)" fill="url(#linear-gradient)"/>
+    <path id="Path_158" data-name="Path 158" d="M14.127,108.261,113.259,9.129a7.268,7.268,0,0,1,10.28,0l14.746,14.746a7.268,7.268,0,0,1,0,10.28L39.153,133.287a7.268,7.268,0,0,1-10.28,0L14.127,118.541A7.274,7.274,0,0,1,14.127,108.261Z" transform="translate(29.36 0)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

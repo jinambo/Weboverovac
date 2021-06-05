@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="152" viewBox="0 0 152 152">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.067" y1="0.067" x2="0.594" y2="0.594" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f44f5a"/>
+      <stop offset="0.443" stop-color="#ee3d4a"/>
+      <stop offset="1" stop-color="#e52030"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.178" y1="0.178" x2="0.869" y2="0.869" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a8142e"/>
+      <stop offset="0.179" stop-color="#ba1632"/>
+      <stop offset="0.243" stop-color="#c21734"/>
+    </linearGradient>
+  </defs>
+  <g id="icons8-delete" transform="translate(-5 -5)">
+    <path id="Path_159" data-name="Path 159" d="M154.678,34.6a7.923,7.923,0,0,0,0-11.208L138.6,7.321a7.923,7.923,0,0,0-11.208,0L81,53.716,34.6,7.321a7.923,7.923,0,0,0-11.208,0L7.321,23.4a7.923,7.923,0,0,0,0,11.208L53.716,81,7.321,127.394a7.923,7.923,0,0,0,0,11.208L23.4,154.678a7.923,7.923,0,0,0,11.208,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Path_160" data-name="Path 160" d="M24,51.283,70.395,97.678a7.923,7.923,0,0,0,11.208,0L97.678,81.6a7.923,7.923,0,0,0,0-11.208L51.283,24Z" transform="translate(57 57)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
