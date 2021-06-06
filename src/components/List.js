@@ -45,6 +45,7 @@ const List = () => {
     return (
         <div className="page-list row row--sm center padding-t-xl padding-b-md">
             <h1 className="title focus-in-expand">Seznam rizikových webů:</h1>
+            <h5 className="description focus-in-expand">Veškerá data pochází z databáze ČOI</h5>
             <ul className="webs">
             { webs.map(web => (
                 <li key={ web.id } className="webs__item padding-xs"> { web.rizikove } </li>
